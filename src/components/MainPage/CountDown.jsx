@@ -6,7 +6,7 @@ const CountDown = () => {
 	const [seconds, setSecond] = useState(0);
 
 	//getting the end time
-	const counterEndTime = new Date("jun 22 2022 19:00:00").getTime();
+	const counterEndTime = new Date("jun 22 2024 19:00:00").getTime();
 
 	//getting the countDown counter function
 	const countDownFunction = () => {
