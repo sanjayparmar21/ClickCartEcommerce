@@ -1,0 +1,111 @@
+@import "./components/Styles/Footer.css";
+@import "./components/Modal/Styles/Modal.css";
+@import "./components/MainPage/Styles/Slider.css";
+@import "./components/MainPage/Styles/Categories.css";
+@import "./components/Furniture/Styles/Products.css";
+@import "./components/Styles/Navigation.css";
+@import "./components/Furniture/Styles/Filter.css";
+@import "./components/MainPage/Styles/OfferSection.css";
+@import "./Pages/Styles/MainPage.css";
+@import "./Pages/Styles/Furniture.css";
+@import "./Pages/Styles/ProductPage.css";
+@import "./Pages/Styles/Cart.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	accent-color: gold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Lato", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #FBF7F0;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(150, 150, 150);
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: text;
+}
+
+::-webkit-scrollbar {
+	width: 0.45rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(150, 150, 150);
+	border-radius: 2rem;
+}
+
+::-webkit-scrollbar-track {
+	background-color: antiquewhite;
+}
+
+::placeholder {
+	color: rgb(180, 180, 180);
+}
+
+.counter {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.count {
+	padding: 0.82rem 1.2rem;
+	color: rgb(100, 100, 100);
+	font-weight: 600;
+	background-color: rgb(235, 235, 235);
+}
+
+.counter-btn {
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	min-width: 3rem;
+	cursor: pointer;
+	border-radius: 10px 0 0 10px;
+}
+
+.right-cbtn {
+	border-radius: 0 10px 10px 0;
+}
+
+.content-wrapper {
+	max-width: 4500px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	background-color: white;
+	margin-top: 4rem;
+	width: 90%;
+	padding: 2rem;
+	border-radius: 2rem;
+	position: relative;
+	z-index: 99;
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: 35rem 2rem;
+}

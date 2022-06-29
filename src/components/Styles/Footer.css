@@ -1,0 +1,16 @@
+.footer {
+   background-color: rgb(26, 60, 64);
+   color: rgb(237, 230, 219);
+   letter-spacing: 1px;
+   padding: 2.5rem 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   z-index: 999;
+}
+
+.footer>p {
+   max-width: 70%;
+   text-align: center;
+}

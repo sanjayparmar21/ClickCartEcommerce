@@ -1,0 +1,30 @@
+.categories-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 75%;
+   margin: 4rem auto;
+   border-right: 10px solid rgb(29, 92, 99);
+   border-left: 10px solid rgb(29, 92, 99);
+   border-radius: 20px;
+}
+
+.categories {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 50%;
+}
+
+.categories>a {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   cursor: pointer;
+   padding: 0 0.75rem;
+   font-weight: 500;
+}
+
+.categories>a:hover {
+   color: dodgerblue;
+}

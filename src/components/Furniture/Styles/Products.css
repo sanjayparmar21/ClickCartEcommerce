@@ -1,0 +1,117 @@
+.loading {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.75);
+   z-index: 9999;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.loading>p {
+   font-size: 1.5rem;
+   color: rgb(150, 150, 150);
+   font-family: "Lato", sans-serif;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+
+.image {
+   width: 100%;
+   height: clamp(15rem, 20vw, 18rem);
+   object-fit: cover;
+   border-radius: 20px;
+   transition: transform 200ms ease-in;
+   cursor: pointer;
+}
+
+.product {
+   margin: 0.7rem;
+   background-color: white;
+   border-radius: 20px;
+   overflow: hidden;
+   transform: scale(0.9);
+   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+   transition: all 200ms ease-in;
+}
+
+.product:hover {
+   transform: scale(0.92);
+   box-shadow: 8px 8px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.price {
+   background-color: rgb(230, 230, 230);
+   padding: 0.24rem 0.75rem;
+   border-radius: 20px;
+}
+
+.assured {
+   background: dodgerblue;
+   color: white;
+   margin-left: 0.5rem;
+}
+
+.product>article {
+   padding: 1rem 1.5rem 1.25rem;
+}
+
+.product-title {
+   text-transform: capitalize;
+   margin: 0 0 1rem;
+   cursor: pointer;
+}
+
+.product>article>p {
+   margin: 1.25rem 0;
+}
+
+.product>article>div {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   width: clamp(14rem, 16rem, 95%);
+}
+
+.btn {
+   padding: 0.5rem;
+   min-width: 6rem;
+   font-weight: bold;
+   letter-spacing: 1px;
+   background-color: rgb(29, 92, 99);
+   outline: none;
+   border-radius: 20px;
+   border: none;
+   cursor: pointer;
+   transition: box-shadow 300ms;
+   color: rgb(237, 230, 219);
+   font-family: "Lato", sans-serif;
+}
+
+.btn:hover,
+.btn:focus {
+   box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+.add {
+   padding: 0.5rem 1rem;
+   font-weight: bold;
+   letter-spacing: 1px;
+   outline: none;
+   border-radius: 20px;
+   border: none;
+   cursor: pointer;
+   transition: box-shadow 300ms;
+   font-family: "Lato", sans-serif;
+   background-color: rgb(237, 230, 219);
+   color: rgb(26, 60, 64);
+}
+
+.add:hover,
+.add:focus {
+   box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.4);
+}

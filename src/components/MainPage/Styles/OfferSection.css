@@ -1,0 +1,79 @@
+.mini-container {
+   display: grid;
+   grid-template-columns: 20% 80%;
+   gap: 1rem;
+   margin: auto;
+   width: 100%;
+}
+
+.offer-img-container {
+   display: grid;
+   place-items: center;
+   background: linear-gradient(90deg, #ffecd2 0%, #fdd9c1 100%);
+   border-radius: 20px;
+}
+
+.main-page-offer-banner {
+   width: 95%;
+   height: 95%;
+   object-fit: cover;
+   border-radius: 20px;
+}
+
+
+.deals {
+   border-radius: 20px;
+   padding: 1rem 2rem;
+   background: linear-gradient(90deg, #ffecd2 0%, #fdd9c1 100%)
+}
+
+.countdown-container {
+   padding: 0.25rem 0;
+   margin: 0.25rem 0;
+   border-bottom: 1px solid rgba(163, 162, 158, 0.4);
+}
+
+.countdown-counter {
+   display: flex;
+   align-items: center;
+}
+
+.discounted-items-slider {
+   overflow: hidden;
+   cursor: grab;
+}
+
+.discounted-items {
+   display: flex;
+   gap: 1rem;
+   height: 19rem;
+}
+
+.item {
+   border-radius: 20px;
+   background-color: white;
+}
+
+.item>h4 {
+   padding: 0.5rem 1rem;
+}
+
+.item>img {
+   border-radius: 20px 20px 0 0;
+   height: 14rem;
+   width: 14rem;
+   object-fit: cover;
+}
+
+.price-details {
+   display: flex;
+   padding-bottom: 1rem;
+   padding-left: 1rem;
+   font-weight: 600;
+}
+
+.price-details>span {
+   opacity: 0.3;
+   text-decoration: line-through;
+   margin-left: 0.85rem;
+}
